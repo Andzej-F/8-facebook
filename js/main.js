@@ -5,6 +5,6 @@ renderPosts(posts);
 
 const asideDOM = document.querySelector('.messenger');
 
-asideDOM.innerhtlml = '<span>Labas rytas :) </span>';
+asideDOM.innerhtml = '<span>Labas rytas :) </span>';
 
 asideDOM.innerHTML += '<span>Ka tu ?</span>';
