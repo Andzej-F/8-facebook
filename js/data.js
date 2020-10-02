@@ -4,22 +4,13 @@ autoriaus
     vardas
     pavarde
 parasymo laikas
-turinys
+posto
     tekstas
     nuotrauku sarasas
     fonas
 */
-/*
-Teksto apimtys:
-- mazai: 1-60
-- vidutiniskai: 61-300
-- daug: 301-10000
-*/
-// JavaScript faile reikia susikurti array tipo kintamąjį, kuriame būtų
-//  sąrašas objekto tipo įrašų
-// grubus pavyzdys: [ {}, {}, {}, {}, {} ]
 
-const posts = [
+// const posts = [
 //     {
 //         author: {
 //             photo: 'jpg',
@@ -36,7 +27,7 @@ const posts = [
 //     }
 
 // ]
-
+const posts = [
 {
     author: {
         photo: 'chuck-norris.jpg',
