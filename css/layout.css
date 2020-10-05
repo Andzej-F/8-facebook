@@ -1,28 +1,27 @@
 body {
-	display: grid;
-	grid-template-columns: 100 px 1fr 140px;
-	grid-template-areas: 
-			"head head head"
-			"menu feed msg";
+    display: grid;
+    grid-template-columns: 100px 1fr 140px;
+    grid-template-areas:
+        "head head head"
+        "menu feed msg";
 }
 
 body > header {
-	grid-area: head;
-	background-color: #3366ff;
-
+    grid-area: head;
+    background-color: #3366ff;
 }
 
 body > aside {
-	background-color: #ccc;
+    background-color: #ccc;
 }
 .menu {
-	grid-area: menu;
+    grid-area: menu;
 }
 .messenger {
-	grid-area: msg;
+    grid-area: msg;
 }
 
 body > main {
-	grid-area: feed;
-	padding: 40px;
+    grid-area: feed;
+    padding: 40px;
 }
